@@ -1,0 +1,534 @@
+{
+  "plants": [
+    {
+      "dutch": "Duizendblad",
+      "latin": "Achillea millefolium",
+      "light": "Zon",
+      "soil": "Arm – matig",
+      "moisture": "Droog – vochtig"
+    },
+    {
+      "dutch": "Gewone agrimonie",
+      "latin": "Agrimonia eupatoria",
+      "light": "Zon – halfschaduw",
+      "soil": "Matig",
+      "moisture": "Droog – vochtig"
+    },
+    {
+      "dutch": "Gele kamille",
+      "latin": "Anthemis tinctoria",
+      "light": "Zon",
+      "soil": "Arm – matig",
+      "moisture": "Droog – vochtig"
+    },
+    {
+      "dutch": "Ruig klokje",
+      "latin": "Campanula trachelium",
+      "light": "Halfschaduw",
+      "soil": "Matig",
+      "moisture": "Vochtig"
+    },
+    {
+      "dutch": "Pinksterbloem",
+      "latin": "Cardamine pratensis",
+      "light": "Halfzon – schaduw",
+      "soil": "Matig – rijk",
+      "moisture": "Vochtig – nat"
+    },
+    {
+      "dutch": "Knoopkruid",
+      "latin": "Centaurea jacea",
+      "light": "Zon",
+      "soil": "Arm – matig",
+      "moisture": "Droog – vochtig"
+    },
+    {
+      "dutch": "Borstelkrans",
+      "latin": "Liatris spicata",
+      "light": "Zon",
+      "soil": "Matig – rijk",
+      "moisture": "Vochtig"
+    },
+    {
+      "dutch": "Peen",
+      "latin": "Daucus carota",
+      "light": "Zon",
+      "soil": "Arm – matig",
+      "moisture": "Droog – vochtig"
+    },
+    {
+      "dutch": "Moerasspirea",
+      "latin": "Spiraea palustris",
+      "light": "Zon",
+      "soil": "Matig – rijk",
+      "moisture": "Vochtig – nat"
+    },
+    {
+      "dutch": "Beemdooievaarsbek",
+      "latin": "Geranium pratense",
+      "light": "Zon – halfschaduw",
+      "soil": "Matig",
+      "moisture": "Droog – vochtig"
+    },
+    {
+      "dutch": "Schermhavikskruid",
+      "latin": "Hieracium sp.",
+      "light": "Zon",
+      "soil": "Arm – matig",
+      "moisture": "Droog – vochtig"
+    },
+    {
+      "dutch": "Hemelsleutel",
+      "latin": "Sedum telephium",
+      "light": "Zon",
+      "soil": "Matig",
+      "moisture": "Droog"
+    },
+    {
+      "dutch": "Sint-Janskruid",
+      "latin": "Hypericum perforatum",
+      "light": "Zon",
+      "soil": "Arm – matig",
+      "moisture": "Droog – vochtig"
+    },
+    {
+      "dutch": "Gewoon biggenkruid",
+      "latin": "Hypochaeris radicata",
+      "light": "Zon",
+      "soil": "Arm – matig",
+      "moisture": "Droog – vochtig"
+    },
+    {
+      "dutch": "Beemdkroon",
+      "latin": "Knautia arvensis",
+      "light": "Zon",
+      "soil": "Matig",
+      "moisture": "Droog – vochtig"
+    },
+    {
+      "dutch": "Veldlathyrus",
+      "latin": "Lathyrus pratensis",
+      "light": "Zon – halfschaduw",
+      "soil": "Matig",
+      "moisture": "Vochtig"
+    },
+    {
+      "dutch": "Gewone margriet",
+      "latin": "Leucanthemum vulgare",
+      "light": "Zon",
+      "soil": "Arm – matig",
+      "moisture": "Droog – vochtig"
+    },
+    {
+      "dutch": "Gewone rolklaver",
+      "latin": "Lotus corniculatus",
+      "light": "Zon",
+      "soil": "Arm – matig",
+      "moisture": "Droog – vochtig"
+    },
+    {
+      "dutch": "Grote kattenstaart",
+      "latin": "Lythrum salicaria",
+      "light": "Zon",
+      "soil": "Matig – rijk",
+      "moisture": "Vochtig – nat"
+    },
+    {
+      "dutch": "Muskuskaasjeskruid",
+      "latin": "Malva moschata",
+      "light": "Zon",
+      "soil": "Matig",
+      "moisture": "Droog – vochtig"
+    },
+    {
+      "dutch": "Wild kattenkruid",
+      "latin": "Nepeta cataria",
+      "light": "Zon",
+      "soil": "Matig",
+      "moisture": "Droog – vochtig"
+    },
+    {
+      "dutch": "Wilde marjolein",
+      "latin": "Origanum vulgare",
+      "light": "Zon",
+      "soil": "Arm – matig",
+      "moisture": "Droog – vochtig"
+    },
+    {
+      "dutch": "Smalle weegbree",
+      "latin": "Plantago lanceolata",
+      "light": "Zon",
+      "soil": "Arm – matig",
+      "moisture": "Droog – vochtig"
+    },
+    {
+      "dutch": "Kleine pimpernel",
+      "latin": "Sanguisorba minor",
+      "light": "Zon – halfschaduw",
+      "soil": "Arm",
+      "moisture": "Droog – vochtig"
+    },
+    {
+      "dutch": "Gewone brunel",
+      "latin": "Prunella vulgaris",
+      "light": "Zon – halfschaduw",
+      "soil": "Matig",
+      "moisture": "Vochtig"
+    },
+    {
+      "dutch": "Scherpe boterbloem",
+      "latin": "Ranunculus acris",
+      "light": "Zon – halfschaduw",
+      "soil": "Matig – rijk",
+      "moisture": "Vochtig – nat"
+    },
+    {
+      "dutch": "Veldsalie",
+      "latin": "Salvia pratensis",
+      "light": "Zon",
+      "soil": "Arm",
+      "moisture": "Droog – vochtig"
+    },
+    {
+      "dutch": "Duifkruid",
+      "latin": "Scabiosa columbaria",
+      "light": "Zon",
+      "soil": "Arm",
+      "moisture": "Droog – matig vochtig"
+    },
+    {
+      "dutch": "Vertakte leeuwentand",
+      "latin": "Leontodon hispidus",
+      "light": "Zon",
+      "soil": "Arm – matig",
+      "moisture": "Droog"
+    },
+    {
+      "dutch": "Echte guldenroede",
+      "latin": "Solidago virgaurea",
+      "light": "Zon – halfschaduw",
+      "soil": "Matig",
+      "moisture": "Droog – vochtig"
+    },
+    {
+      "dutch": "Bosandoorn",
+      "latin": "Stachys sylvatica",
+      "light": "Halfschaduw",
+      "soil": "Rijk",
+      "moisture": "Vochtig"
+    },
+    {
+      "dutch": "Blauwe knoop",
+      "latin": "Succisa pratensis",
+      "light": "Zon – halfschaduw",
+      "soil": "Matig – rijk",
+      "moisture": "Vochtig"
+    },
+    {
+      "dutch": "Boerenwormkruid",
+      "latin": "Tanacetum vulgare",
+      "light": "Zon",
+      "soil": "Matig",
+      "moisture": "Droog – vochtig"
+    },
+    {
+      "dutch": "Lange ereprijs",
+      "latin": "Veronica teucrium",
+      "light": "Zon – halfschaduw",
+      "soil": "Matig",
+      "moisture": "Vochtig"
+    },
+    {
+      "dutch": "Wilde cichorei",
+      "latin": "Cichorium intybus",
+      "light": "Zon",
+      "soil": "Arm",
+      "moisture": "Droog – vochtig"
+    },
+    {
+      "dutch": "Grijskruid",
+      "latin": "Berteroa incana",
+      "light": "Zon",
+      "soil": "Arm",
+      "moisture": "Droog"
+    },
+    {
+      "dutch": "Valse kamille",
+      "latin": "Anthemis arvensis",
+      "light": "Zon",
+      "soil": "Arm – matig",
+      "moisture": "Droog – vochtig"
+    },
+    {
+      "dutch": "Karwij",
+      "latin": "Carum carvi",
+      "light": "Zon",
+      "soil": "Arm – matig",
+      "moisture": "Droog – vochtig"
+    },
+    {
+      "dutch": "Korenbloem",
+      "latin": "Centaurea cyanus",
+      "light": "Zon",
+      "soil": "Arm",
+      "moisture": "Droog – vochtig"
+    },
+    {
+      "dutch": "Grote kaardebol",
+      "latin": "Dipsacus fullonum",
+      "light": "Zon",
+      "soil": "Matig – rijk",
+      "moisture": "Vochtig"
+    },
+    {
+      "dutch": "Gele ganzenbloem",
+      "latin": "Glebionis segetum",
+      "light": "Zon",
+      "soil": "Arm – matig",
+      "moisture": "Droog – vochtig"
+    },
+    {
+      "dutch": "Wede",
+      "latin": "Isatis tinctoria",
+      "light": "Zon",
+      "soil": "Arm",
+      "moisture": "Droog"
+    },
+    {
+      "dutch": "Zandblauwtje",
+      "latin": "Jasione montana",
+      "light": "Zon",
+      "soil": "Arm",
+      "moisture": "Droog"
+    },
+    {
+      "dutch": "Echte kamille",
+      "latin": "Matricaria chamomilla",
+      "light": "Zon",
+      "soil": "Arm – matig",
+      "moisture": "Droog – vochtig"
+    },
+    {
+      "dutch": "Akkervergeet-mij-nietje",
+      "latin": "Myosotis arvensis",
+      "light": "Zon – halfschaduw",
+      "soil": "Arm",
+      "moisture": "Vochtig"
+    },
+    {
+      "dutch": "Middelste teunisbloem",
+      "latin": "Oenothera biennis",
+      "light": "Zon",
+      "soil": "Arm – matig",
+      "moisture": "Droog – vochtig"
+    },
+    {
+      "dutch": "Grote klaproos",
+      "latin": "Papaver rhoeas",
+      "light": "Zon",
+      "soil": "Arm – matig",
+      "moisture": "Droog – vochtig"
+    },
+    {
+      "dutch": "Echt bitterkruid",
+      "latin": "Picris hieracioides",
+      "light": "Zon",
+      "soil": "Arm – matig",
+      "moisture": "Droog"
+    },
+    {
+      "dutch": "Wouw",
+      "latin": "Reseda luteola",
+      "light": "Zon",
+      "soil": "Arm – matig",
+      "moisture": "Vochtig"
+    },
+    {
+      "dutch": "Paarse morgenster",
+      "latin": "Tragopogon porrifolius",
+      "light": "Zon",
+      "soil": "Matig",
+      "moisture": "Droog – vochtig"
+    },
+    {
+      "dutch": "Gele morgenster",
+      "latin": "Tragopogon pratensis",
+      "light": "Zon",
+      "soil": "Matig",
+      "moisture": "Droog – vochtig"
+    },
+    {
+      "dutch": "Hazenpootje",
+      "latin": "Trifolium arvense",
+      "light": "Zon",
+      "soil": "Arm – matig",
+      "moisture": "Droog – vochtig"
+    },
+    {
+      "dutch": "Rode klaver",
+      "latin": "Trifolium pratense",
+      "light": "Zon",
+      "soil": "Matig",
+      "moisture": "Droog – vochtig"
+    },
+    {
+      "dutch": "Reukeloze kamille",
+      "latin": "Tripleurospermum maritimum",
+      "light": "Zon",
+      "soil": "Arm",
+      "moisture": "Droog – vochtig"
+    },
+    {
+      "dutch": "Akkerviooltje",
+      "latin": "Viola arvensis",
+      "light": "Zon",
+      "soil": "Arm – matig",
+      "moisture": "Vochtig"
+    },
+    {
+      "dutch": "Driekleurig viooltje",
+      "latin": "Viola tricolor",
+      "light": "Zon",
+      "soil": "Arm – matig",
+      "moisture": "Vochtig"
+    },
+    {
+      "dutch": "Zwarte toorts",
+      "latin": "Verbascum nigrum",
+      "light": "Zon",
+      "soil": "Arm – matig",
+      "moisture": "Droog"
+    },
+    {
+      "dutch": "Koninginnenkruid",
+      "latin": "Eupatorium cannabinum",
+      "light": "Zon",
+      "soil": "Rijk",
+      "moisture": "Vochtig – nat"
+    },
+    {
+      "dutch": "Slangenkruid",
+      "latin": "Echium vulgare",
+      "light": "Zon",
+      "soil": "Arm",
+      "moisture": "Droog"
+    },
+    {
+      "dutch": "Knolsteenbreek",
+      "latin": "Saxifraga granulata",
+      "light": "Zon – halfschaduw",
+      "soil": "Arm – matig",
+      "moisture": "Droog – vochtig"
+    },
+    {
+      "dutch": "Dagkoekoeksbloem",
+      "latin": "Silene dioica",
+      "light": "Halfschaduw",
+      "soil": "Rijk",
+      "moisture": "Vochtig"
+    }
+  ],
+  "soilData": {
+    "1": {
+      "type": "Kleigrond",
+      "fertility": "Rijk",
+      "description": "Vruchtbare kleigrond, veel voedingsstoffen"
+    },
+    "2": {
+      "type": "Zandgrond",
+      "fertility": "Arm",
+      "description": "Doorlatende zandgrond, weinig voedingsstoffen"
+    },
+    "3": {
+      "type": "Veengrond",
+      "fertility": "Rijk",
+      "description": "Organische veengrond, zeer voedselrijk"
+    },
+    "4": {
+      "type": "Lössgrond",
+      "fertility": "Matig",
+      "description": "Vruchtbare lössgrond, goede structuur"
+    },
+    "5": {
+      "type": "Zandgrond",
+      "fertility": "Arm",
+      "description": "Arme zandgrond, droogtegevoelig"
+    },
+    "6": {
+      "type": "Kleigrond",
+      "fertility": "Matig",
+      "description": "Zware kleigrond, matige drainage"
+    },
+    "7": {
+      "type": "Dalgrond",
+      "fertility": "Rijk",
+      "description": "Vruchtbare dalgrond, veel organische stof"
+    },
+    "8": {
+      "type": "Zandgrond",
+      "fertility": "Matig",
+      "description": "Dekzandgrond, matige vruchtbaarheid"
+    },
+    "9": {
+      "type": "Kleigrond",
+      "fertility": "Rijk",
+      "description": "Zeekleigrond, zeer vruchtbaar"
+    }
+  },
+  "moistureData": {
+    "1": {
+      "region": "Amsterdam e.o.",
+      "groundwater": "Matig",
+      "moisture": "Vochtig",
+      "description": "Stedelijk gebied, gemiddelde grondwaterstand, goede drainage"
+    },
+    "2": {
+      "region": "Den Haag/Haarlem",
+      "groundwater": "Hoog",
+      "moisture": "Vochtig",
+      "description": "Kustgebied, hoge grondwaterstand door nabijheid zee"
+    },
+    "3": {
+      "region": "Utrecht/Veengebied",
+      "groundwater": "Zeer hoog",
+      "moisture": "Nat",
+      "description": "Laag veengebied, zeer hoge grondwaterstand, slecht drainerend"
+    },
+    "4": {
+      "region": "Zuid-Holland",
+      "groundwater": "Hoog",
+      "moisture": "Vochtig",
+      "description": "Poldergebied, kunstmatig gereguleerde waterstand"
+    },
+    "5": {
+      "region": "Noord-Brabant",
+      "groundwater": "Laag",
+      "moisture": "Droog",
+      "description": "Zandgebied, diepe grondwaterstand, droogtegevoelig"
+    },
+    "6": {
+      "region": "Limburg",
+      "groundwater": "Matig",
+      "moisture": "Vochtig",
+      "description": "Heuvelland, wisselende grondwaterstand"
+    },
+    "7": {
+      "region": "Flevoland",
+      "groundwater": "Gecontroleerd",
+      "moisture": "Vochtig",
+      "description": "Nieuw land, kunstmatig gereguleerde waterhuishouding"
+    },
+    "8": {
+      "region": "Drenthe/Overijssel",
+      "groundwater": "Matig",
+      "moisture": "Vochtig",
+      "description": "Dekzandgebied, gemiddelde grondwaterstand"
+    },
+    "9": {
+      "region": "Noord-Nederland",
+      "groundwater": "Hoog",
+      "moisture": "Nat",
+      "description": "Laag kustgebied, hoge grondwaterstand, kwelwater"
+    }
+  }
+}

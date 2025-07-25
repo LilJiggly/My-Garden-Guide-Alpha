@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="nl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Plant Filter Systeem</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>🌱 Plant Filter Systeem</h1>
+
+      <div class="filter-section">
+        <div class="filter-question">☀️ Hoeveel licht heeft je locatie?</div>
+        <div class="filter-options" id="lightFilters">
+          <div class="filter-option" data-filter="light" data-value="Zon">
+            Veel zon
+          </div>
+          <div
+            class="filter-option"
+            data-filter="light"
+            data-value="Halfschaduw"
+          >
+            Halfschaduw
+          </div>
+          <div class="filter-option" data-filter="light" data-value="Schaduw">
+            Schaduw
+          </div>
+        </div>
+      </div>
+
+      <div class="filter-section">
+        <div class="filter-question">
+          🌱 Hoe voedselrijk is je bodem?
+          <span class="help-icon" onclick="showSoilHelp()">?</span>
+        </div>
+        <div class="filter-options" id="soilFilters">
+          <div class="filter-option" data-filter="soil" data-value="Arm">
+            Arme grond
+          </div>
+          <div class="filter-option" data-filter="soil" data-value="Matig">
+            Matige voedselrijkdom
+          </div>
+          <div class="filter-option" data-filter="soil" data-value="Rijk">
+            Rijke grond
+          </div>
+        </div>
+      </div>
+
+      <div class="filter-section">
+        <div class="filter-question">
+          💧 Hoe vochtig is je locatie?
+          <span class="help-icon" onclick="showMoistureHelp()">?</span>
+        </div>
+        <div class="filter-options" id="moistureFilters">
+          <div class="filter-option" data-filter="moisture" data-value="Droog">
+            Droog
+          </div>
+          <div
+            class="filter-option"
+            data-filter="moisture"
+            data-value="Vochtig"
+          >
+            Vochtig
+          </div>
+          <div class="filter-option" data-filter="moisture" data-value="Nat">
+            Nat
+          </div>
+        </div>
+      </div>
+
+      <div class="results-section">
+        <div class="results-header">
+          <h2>Geschikte planten</h2>
+          <div>
+            <span class="results-count" id="resultsCount"
+              >Alle planten worden getoond</span
+            >
+            <button class="clear-filters" onclick="clearAllFilters()">
+              Filters wissen
+            </button>
+          </div>
+        </div>
+
+        <div class="plant-grid" id="plantGrid">
+          <!-- Plants will be populated here -->
+        </div>
+
+        <div class="no-results" id="noResults" style="display: none">
+          Geen planten gevonden met de geselecteerde filters. Probeer andere
+          combinaties!
+        </div>
+      </div>
+    </div>
+
+    <!-- Soil Help Popup -->
+    <div class="popup-overlay" id="soilPopup" onclick="closeSoilHelp()">
+      <div class="popup" onclick="event.stopPropagation()">
+        <button class="popup-close" onclick="closeSoilHelp()">&times;</button>
+        <h3>Bodemvruchtbaarheid bepalen</h3>
+        <p>
+          Weet je niet hoe voedselrijk je bodem is? Voer je postcode in om
+          informatie over je lokale bodemtype te krijgen:
+        </p>
+
+        <input
+          type="text"
+          class="postal-input"
+          id="postalCode"
+          placeholder="Bijv. 1234AB"
+          maxlength="7"
+        />
+        <button class="postal-button" onclick="checkSoilFertility()">
+          Controleer bodem
+        </button>
+
+        <div id="soilResult" class="soil-result" style="display: none"></div>
+
+        <div style="margin-top: 20px; font-size: 14px; color: #666">
+          <strong>Algemene richtlijnen:</strong><br />
+          • <strong>Arme grond:</strong> Zandgrond, weinig organische stof<br />
+          • <strong>Matige voedselrijkdom:</strong> Gemengde grond, normale
+          tuin<br />
+          • <strong>Rijke grond:</strong> Kleigrond, veel compost, vruchtbare
+          tuin
+        </div>
+      </div>
+    </div>
+
+    <!-- Moisture Help Popup -->
+    <div class="popup-overlay" id="moisturePopup" onclick="closeMoistureHelp()">
+      <div class="popup" onclick="event.stopPropagation()">
+        <button class="popup-close" onclick="closeMoistureHelp()">
+          &times;
+        </button>
+        <h3>Grondwaterstand en vochtigheid bepalen</h3>
+        <p>
+          Weet je niet hoe vochtig je locatie is? Voer je postcode in om
+          informatie over de lokale grondwaterstand te krijgen:
+        </p>
+
+        <input
+          type="text"
+          class="postal-input"
+          id="moisturePostalCode"
+          placeholder="Bijv. 1234AB"
+          maxlength="7"
+        />
+        <button class="postal-button" onclick="checkMoistureLevel()">
+          Controleer vochtigheid
+        </button>
+
+        <div
+          id="moistureResult"
+          class="soil-result"
+          style="display: none"
+        ></div>
+
+        <div style="margin-top: 20px; font-size: 14px; color: #666">
+          <strong>Algemene richtlijnen:</strong><br />
+          • <strong>Droog:</strong> Hoge ligging, zandgrond, goede drainage<br />
+          • <strong>Vochtig:</strong> Normale tuin, gemiddelde
+          grondwaterstand<br />
+          • <strong>Nat:</strong> Lage ligging, slecht drainerende grond, nabij
+          water
+        </div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
